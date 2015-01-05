@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Raise Survey</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_raise_earn_bonus_points">Raise - Earn Rewards Points</string>
+    <string name="message_dialog_try_to_reconnect">Would you like to try to connect?</string>
+    <string name="title_dialog_problem_with_network">Problem with network</string>
+    <string name="label_dialog_no">No</string>
+    <string name="label_dialog_yes">Yes</string>
+    <string name="label_dialog_ok">ok</string>
+    <string name="message_dialog_please_try_again_later">Please try again later.</string>
+    <string name="title_dialog_problem_with_server">Problem sending choice to server</string>
+    <string name="label_which_gift_card">Which Gift Card you would most likely purchase?</string>
+    <string name="label_new_offer">New Offer</string>
+    <string name="label_total_points_earned">Total points earned:</string>
+
+    <string name="message_error_problem_serializing">Problem Serializing Bonus Data</string>
+    <string name="message_error_problem_posting_offer_choice">Problem Posting Offer Choice</string>
+    <string name="message_error_problem_json_serialization">Problem with JSON serialization</string>
+    <string name="message_error_problem_with_server">Problem contacting server.</string>
+
+</resources>
