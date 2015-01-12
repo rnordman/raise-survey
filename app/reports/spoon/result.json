@@ -1,0 +1,248 @@
+{
+  "title": "Spoon Execution",
+  "started": 1421082822541,
+  "duration": 19,
+  "results": {
+    "7f0e0835": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "SGH-I747",
+        "manufacturer": "samsung",
+        "version": "4.4.2",
+        "apiLevel": 19,
+        "language": "en",
+        "region": "US",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "com.onclick.raisesurvey.SurveyTest",
+            "methodName": "testListView"
+          },
+          {
+            "status": "PASS",
+            "duration": 5,
+            "screenshots": [
+              "C:\\AndroidStudioProjects\\RaiseSurvey\\app\\reports\\spoon\\image\\7f0e0835\\com.onclick.raisesurvey.SurveyTest\\testListView\\1421082838151_init.png",
+              "C:\\AndroidStudioProjects\\RaiseSurvey\\app\\reports\\spoon\\image\\7f0e0835\\com.onclick.raisesurvey.SurveyTest\\testListView\\1421082839542_init_list_view.png",
+              "C:\\AndroidStudioProjects\\RaiseSurvey\\app\\reports\\spoon\\image\\7f0e0835\\com.onclick.raisesurvey.SurveyTest\\testListView\\1421082841500_post_list_view_click.png"
+            ],
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "01-12 11:13:57.279",
+                "mMessage": "started: testListView(com.onclick.raisesurvey.SurveyTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "AbsListView",
+                "mTime": "01-12 11:13:57.499",
+                "mMessage": "Get MotionRecognitionManager"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "Adreno-GSL",
+                "mTime": "01-12 11:13:57.870",
+                "mMessage": "\u003cget_panel_settings:3802\u003e: Android framework reported version 2. So, don\u0027t force ES30"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "Adreno-EGL",
+                "mTime": "01-12 11:13:57.880",
+                "mMessage": "\u003cqeglDrvAPI_eglInitialize:381\u003e: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_KK_2.7_RB1.04.04.00.007.018_msm8960_KK_2.7_RB1_CL3869936_release_AU (CL3869936)"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "Adreno-EGL",
+                "mTime": "01-12 11:13:57.880",
+                "mMessage": "OpenGL ES Shader Compiler Version: 17.01.10.SPL"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "Adreno-EGL",
+                "mTime": "01-12 11:13:57.880",
+                "mMessage": "Build Date: 12/09/13 Mon"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "Adreno-EGL",
+                "mTime": "01-12 11:13:57.880",
+                "mMessage": "Local Branch: mybranch2092625"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "Adreno-EGL",
+                "mTime": "01-12 11:13:57.880",
+                "mMessage": "Remote Branch: quic/kk_2.7_rb1.15"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "Adreno-EGL",
+                "mTime": "01-12 11:13:57.880",
+                "mMessage": "Local Patches: NONE"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "Adreno-EGL",
+                "mTime": "01-12 11:13:57.880",
+                "mMessage": "Reconstruct Branch: AU_LINUX_ANDROID_KK_2.7_RB1.04.04.00.007.018 +  NOTHING"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14876",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "01-12 11:13:57.920",
+                "mMessage": "Enabling debug mode 0"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "01-12 11:13:59.031",
+                "mMessage": "Captured screenshot \u0027init\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "01-12 11:13:59.561",
+                "mMessage": "GC_FOR_ALLOC freed 4085K, 49% free 9306K/18156K, paused 25ms, total 27ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "01-12 11:13:59.561",
+                "mMessage": "Grow heap (frag case) to 15.832MB for 3686416-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "01-12 11:14:00.272",
+                "mMessage": "Captured screenshot \u0027init_list_view\u0027."
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14907",
+                "mAppName": "",
+                "mTag": "SendOfferChoiceTask",
+                "mTime": "01-12 11:14:00.282",
+                "mMessage": "Offers successfully retrieved."
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14976",
+                "mAppName": "",
+                "mTag": "SendOfferChoiceTask",
+                "mTime": "01-12 11:14:01.203",
+                "mMessage": "Bonus points retrieved: 0"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "01-12 11:14:01.514",
+                "mMessage": "GC_FOR_ALLOC freed 3860K, 49% free 9349K/18156K, paused 19ms, total 19ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "01-12 11:14:01.514",
+                "mMessage": "Grow heap (frag case) to 15.873MB for 3686416-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "01-12 11:14:02.164",
+                "mMessage": "Captured screenshot \u0027post_list_view_click\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "01-12 11:14:02.415",
+                "mMessage": "GC_EXPLICIT freed 3703K, 49% free 9260K/18156K, paused 8ms+5ms, total 45ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "01-12 11:14:02.465",
+                "mMessage": "GC_EXPLICIT freed 3K, 50% free 9259K/18156K, paused 6ms+5ms, total 46ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "14876",
+                "mTid": "14905",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "01-12 11:14:02.465",
+                "mMessage": "finished: testListView(com.onclick.raisesurvey.SurveyTest)"
+              }
+            ]
+          }
+        ]
+      ],
+      "started": 1421082822552,
+      "duration": 5,
+      "exceptions": []
+    }
+  }
+}
