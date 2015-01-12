@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.provider.Settings;
 
-import onclick.com.raisesurvey.Constants;
+import com.onclick.raisesurvey.Constants;
 
 /**
  * Created by Ronald T on 1/2/2015.

@@ -19,5 +19,8 @@
     <string name="message_error_problem_posting_offer_choice">Problem Posting Offer Choice</string>
     <string name="message_error_problem_json_serialization">Problem with JSON serialization</string>
     <string name="message_error_problem_with_server">Problem contacting server.</string>
+    <string name="title_dialog_congratulations">Congratulations!</string>
+    <string name="message_dialog_you_have_earned">"You have earned "</string>
+    <string name="message_dialog_bonus_points">" bonus points."</string>
 
 </resources>

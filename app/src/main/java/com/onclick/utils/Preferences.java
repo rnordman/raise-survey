@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 
 import com.onclick.dialogs.DialogFactory;
 
-import onclick.com.raisesurvey.Constants;
+import com.onclick.raisesurvey.Constants;
 
 /**
  * Created by Ronald T on 1/2/2015.

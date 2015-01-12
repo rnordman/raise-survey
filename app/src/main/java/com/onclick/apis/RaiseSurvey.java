@@ -35,7 +35,6 @@ public String queryGetOffers(String rUrl) throws IOException {
     giftCards = getOffersBytes(rUrl);
 
 
-
     return new String(giftCards);
 
 }

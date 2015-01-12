@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
-import onclick.com.raisesurvey.Constants;
-import onclick.com.raisesurvey.R;
+import com.onclick.raisesurvey.Constants;
+import com.onclick.raisesurvey.R;
 
 
 /**
@@ -53,8 +53,8 @@ public class  DialogFactory {
     public static void showCongratulationsDialog(Activity context, int bonusPoints) {
 
         DialogParams noConnectDialog = new DialogParams(context);
-        noConnectDialog.setMessage("You have earned " + String.valueOf(bonusPoints) + " bonus points.");
-        noConnectDialog.setTitle("Congratulations!");
+        noConnectDialog.setMessage(context.getString(R.string.message_dialog_you_have_earned) + String.valueOf(bonusPoints) + context.getString(R.string.message_dialog_bonus_points));
+        noConnectDialog.setTitle(context.getString(R.string.title_dialog_congratulations));
         noConnectDialog.setShowNegative(true);
         noConnectDialog.setNegativeText(context.getString(R.string.label_dialog_ok));
 

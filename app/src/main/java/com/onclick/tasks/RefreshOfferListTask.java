@@ -17,12 +17,12 @@ import org.json.JSONException;
 import java.io.IOException;
 import java.util.List;
 
-import onclick.com.raisesurvey.Constants;
-import onclick.com.raisesurvey.OfferListViewAdapter;
-import onclick.com.raisesurvey.R;
+import com.onclick.raisesurvey.Constants;
+import com.onclick.raisesurvey.OfferListViewAdapter;
+import com.onclick.raisesurvey.R;
 
 /**
- * Created by Ronald T on 12/20/2014.
+ * Created by Ronald T on 12/27/2014.
  */
 public class RefreshOfferListTask extends AsyncTask<String,Void,DataOut> {
 
