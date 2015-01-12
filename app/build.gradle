@@ -52,7 +52,7 @@ task runSpoonTest(type: JavaExec, dependsOn: ['assembleDebug', 'assembleDebugTes
             '--sdk', sdkPath,
             '--output', 'reports/spoon/',
             '--no-animations', '--fail-on-failure',
-            '--class-name', 'com.click.raisesurvey.SurveyTest',
+            '--class-name', 'com.onclick.raisesurvey.SurveyTest',
             '--method-name', 'testListView'
 
 }
